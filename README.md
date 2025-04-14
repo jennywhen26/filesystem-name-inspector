@@ -1,5 +1,3 @@
-Markdown Documentation Page
-
 # filesystem-name-inspector Documentation
 
 ## Summary
@@ -22,21 +20,22 @@ A Python script that scans directories to identify file packages, problematic fi
 - Detects non-ASCII characters in both file and directory names
 - Displays clear, categorized results with absolute paths
 
-###The script is searching recursively in the directory structure for several things:
+### The script is searching recursively in the directory structure for several things:
 1. File packages, as these could become problems when transferring or ingesting. File packages identified are as listed:
 .zip, .tar, .rar, .7z, .s7z, .apk, .zipx, .wim, .gz, .iso, .dmg, .app, .warc, .warcz, .war, .jar, .ewf, .e01, .dd, .raw, .01, .001, .1, .gzip, .img, .aff, .nrg, .bin, .sit, .sitx, .tgz, .tlz, .txz, .zz, .ecc, .dar, .ima, .deb, .pkg, .mpkg, .rpm, .msi, .crx
 2. File names with trailing spaces
 3. Hidden system files, like Thumbs.db or anything that starts with “.”
 4. Both file and directory names with non-ASCII characters
 
-### How to use?
-bash
-# On macOS/Linux
+## How to use?
+
+### On macOS/Linux
 ```python3 filesystem-name-inspector.py /path/to/directory```
 
-# On Windows
+### On Windows
 ```python filesystem-name-inspector.py C:\path\to\directory```
-Example Output
+
+### Example Output
 ```
 Total number of matching problematic file types: 3
 /home/user/data/archive.zip
