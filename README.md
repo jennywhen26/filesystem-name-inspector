@@ -37,27 +37,38 @@ A Python script that scans directories to identify file packages, problematic fi
 
 ### Example Output
 ```
-Total number of matching problematic file types: 3
-/home/user/data/archive.zip
-/home/user/data/backup.tar.gz
-/home/user/data/image.iso
+SCAN SUMMARY:
+Total files scanned: 19
+Total directories scanned: 8
 
-Total number of problematic file names: 2
-/home/user/data/report.pdf 
-/home/user/data/document:v1.txt
+FILE PACKAGES, total number of matching items: 8
+/Users/hsujen/Desktop/Test-Driven_00/File_types/x.zip
+/Users/hsujen/Desktop/Test-Driven_00/測試一/Straße.tar
+/Users/hsujen/Desktop/Test-Driven_00/File_types/y.tar
+/Users/hsujen/Desktop/Test-Driven_00/File_types/z.rar
+/Users/hsujen/Desktop/Test-Driven_00/File_types/w.7z
+/Users/hsujen/Desktop/Test-Driven_00/File_types/u.gz
+/Users/hsujen/Desktop/Test-Driven_00/File_types/t.iso
+/Users/hsujen/Desktop/Test-Driven_00/File_types/s.dmg
 
-Total number of problematic directories: 1
-/home/user/data/presentations 
+FILE NAMES, total number of matching items: 2
+/Users/hsujen/Desktop/Test-Driven_00/File_names/spaceafterextension.pdf 
+/Users/hsujen/Desktop/Test-Driven_00/File_names/spaceatend_noextension 
 
-Total number of problematic system files: 2
-/home/user/data/.DS_Store
-/home/user/data/Thumbs.db
+SYSTEM FILES, total number of matching items: 2
+/Users/hsujen/Desktop/Test-Driven_00/.DS_Store
+/Users/hsujen/Desktop/Test-Driven_00/File_names/.DS_Store
 
-Total number of problematic system directories: 1
-/home/user/data/.git
+SYSTEM DIRECTORIES, total number of matching items: 1
+/Users/hsujen/Desktop/Test-Driven_00/.jen
 
-Total number of items with non-ASCII characters: 2
-/home/user/data/résumé.pdf
-/home/user/data/документы
+NON-ASCII CHARACTERS, total number of matching items: 7
+/Users/hsujen/Desktop/Test-Driven_00/тестовые_файлы.pdf
+/Users/hsujen/Desktop/Test-Driven_00/測試檔案.txt
+/Users/hsujen/Desktop/Test-Driven_00/測試一/Straße.tar
+/Users/hsujen/Desktop/Test-Driven_00/тестовые файлы один/Bänke
+/Users/hsujen/Desktop/Test-Driven_00/Bänke Straße
+/Users/hsujen/Desktop/Test-Driven_00/測試一
+/Users/hsujen/Desktop/Test-Driven_00/тестовые файлы один
 ```
 If no issues are found in a category, the script displays "Congrats! None found!"
