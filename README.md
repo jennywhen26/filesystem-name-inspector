@@ -73,7 +73,7 @@ NON-ASCII CHARACTERS, total number of matching items: 7
 ```
 If no issues are found in a category, the script displays "Congrats! None found!"
 
-### The script was developed with the help of Claude, which is an AI assistant built by Anthropic.
+#### The script was developed with the help of Claude, which is an AI assistant built by Anthropic.
 
 ## License
 MIT License
