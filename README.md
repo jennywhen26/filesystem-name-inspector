@@ -15,7 +15,7 @@ A Python script that scans directories to identify file packages, problematic fi
 ## What is the script searching for?
 - Identifies compressed/package files that may cause transfer issues
 - Detects problematic characters in filenames (/, , :)
-- Flags files with trailing spaces
+- Flags file names with trailing spaces and directories names with space at beginning or end
 - Identifies hidden system files and directories
 - Detects non-ASCII characters in both file and directory names
 - Displays clear, categorized results with absolute paths
@@ -72,3 +72,10 @@ NON-ASCII CHARACTERS, total number of matching items: 7
 /Users/hsujen/Desktop/Test-Driven_00/тестовые файлы один
 ```
 If no issues are found in a category, the script displays "Congrats! None found!"
+
+### The script was developed with the help of Claude, which is an AI assistant built by Anthropic.
+
+## License
+MIT License
+## Maintainer
+Jenny Hsu @jennywhen26
