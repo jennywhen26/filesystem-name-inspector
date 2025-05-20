@@ -13,9 +13,9 @@ A Python script that scans directories to identify file packages, problematic fi
 - _re_: For regular expression pattern matching
 
 ## What is the script searching for?
-- Identifies compressed/package files that may cause transfer issues
+- Identifies (compressed) package files that may cause transfer issues
 - Detects problematic characters in filenames (/, , :)
-- Flags file names with trailing spaces and directories names with space at beginning or end
+- Flags file names with trailing spaces
 - Identifies hidden system files and directories
 - Detects non-ASCII characters in both file and directory names
 - Displays clear, categorized results with absolute paths
@@ -36,13 +36,14 @@ A Python script that scans directories to identify file packages, problematic fi
 ```python filesystem-name-inspector.py C:\path\to\directory```
 
 ### Command Line Options
-positional arguments:
-  directory             Path to the directory you want to scan
+```
+required arguments:
+  directory    Path to the directory you want to scan
 
 optional arguments:
-  -h, --help            Show this help message and exit
-  --csv FILE            Export results to a CSV file at the specified path
-
+  -h, --help   Show this help message and exit
+  --csv FILE   Export results to a CSV file at the specified path
+```
 
 ### Example Output
 ```
