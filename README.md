@@ -36,13 +36,12 @@ A Python script that scans directories to identify file packages, problematic fi
 ```python filesystem-name-inspector.py C:\path\to\directory```
 
 ### Command Line Options
-```
 positional arguments:
   directory             Path to the directory you want to scan
 
 optional arguments:
   -h, --help            Show this help message and exit
-  --csv FILE            Export results to a CSV file at the specified path```
+  --csv FILE            Export results to a CSV file at the specified path
 
 
 ### Example Output
