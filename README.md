@@ -30,10 +30,10 @@ A Python script that scans directories to identify file packages, problematic fi
 ## How to use?
 
 ### On macOS/Linux
-```python3 filesystem-name-inspector.py /path/to/directory```
+```python3 fs-name-inspector_[version].py /path/to/directory```
 
 ### On Windows
-```python filesystem-name-inspector.py C:\path\to\directory```
+```python fs-name-inspector_[version].py C:\path\to\directory```
 
 ### Command Line Options
 ```
