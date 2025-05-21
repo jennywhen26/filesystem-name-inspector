@@ -3,6 +3,8 @@ name: Python Check
 on:
   push:
     branches: [ main ]
+    paths:
+      - '**.py'  # Only run when Python files change
 
 jobs:
   test:
