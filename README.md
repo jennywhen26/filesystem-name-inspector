@@ -15,7 +15,7 @@ A Python script that scans directories to identify file packages, problematic fi
 
 ## What is the script searching for?
 - Identifies (compressed) package files that may cause transfer issues
-- Detects problematic characters in filenames (/, , :)
+- Detects problematic characters in file names (/, , :)
 - Flags file names with trailing spaces
 - Identifies hidden system files and directories
 - Detects non-ASCII characters in both file and directory names
