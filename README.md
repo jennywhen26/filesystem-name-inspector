@@ -1,4 +1,4 @@
-# fs-name-inspector ![Version](https://img.shields.io/badge/version-0.2.1-blue) documentation
+# fs-name-inspector ![Version](https://img.shields.io/badge/version-0.2.1-blue) documentation [![Python Check](https://github.com/jennywhen26/filesystem-name-inspector/actions/workflows/main.yml/badge.svg)](https://github.com/jennywhen26/filesystem-name-inspector/actions/workflows/main.yml)
 ### (filesystem-name-inspector)
 
 ## Summary
