@@ -1,4 +1,5 @@
-# filesystem-name-inspector Documentation
+# fs-name-inspector ![Version](https://img.shields.io/badge/version-0.2.1-blue) documentation
+### (filesystem-name-inspector)
 
 ## Summary
 A Python script that scans directories to identify file packages, problematic file and directory names, including non-ASCII characters, system files, trailing spaces, and other naming issues that could cause compatibility problems when transferring. The script will search the directories and files recursively, and give results when it’s done with absolute paths to help users locate the exact directory or file.
@@ -45,8 +46,10 @@ optional arguments:
   --csv FILE   Export results to a CSV file at the specified path
 ```
 
-### Example Output
+### Example Input and Output in Terminal
 ```
+python3 fs-name-inspector_v0-2-1.py /path/to/directory
+
 SCAN SUMMARY:
 Total files scanned: 19
 Total directories scanned: 8
