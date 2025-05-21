@@ -2,7 +2,7 @@
 ### (filesystem-name-inspector)
 
 ## Summary
-A Python script that scans directories to identify file packages, problematic file and directory names, including non-ASCII characters, system files, trailing spaces, and other naming issues that could cause compatibility problems when transferring. The script will search the directories and files recursively, and give results when it’s done with absolute paths to help users locate the exact directory or file.
+A Python script that scans directories to identify file packages, problematic file and directory names, including non-ASCII characters, system files, trailing spaces, and other naming issues that could cause compatibility problems when transferring. The script will search the directories and files recursively, and when it's done, displays clear, categorized results with absolute paths to help users locate the exact directory or file. Results may also be exported to CSV file (optional).
 
 ## Installation and Dependencies
 ### Requirements
@@ -19,7 +19,6 @@ A Python script that scans directories to identify file packages, problematic fi
 - Flags file names with trailing spaces
 - Identifies hidden system files and directories
 - Detects non-ASCII characters in both file and directory names
-- Displays clear, categorized results with absolute paths
 
 ### The script is searching recursively in the directory structure for several things:
 1. File packages, as these could become problems when transferring or ingesting. File packages identified are as listed:
