@@ -31,10 +31,14 @@ A Python script that scans directories to identify file packages, problematic fi
 ## How to use?
 
 ### On macOS/Linux
-```python3 fs-name-inspector_[version].py /path/to/directory```
+```python3 fs-name-inspector_v0-2-1.py /path/to/directory```
 
 ### On Windows
-```python fs-name-inspector_[version].py C:\path\to\directory```
+```python fs-name-inspector_v0-2-1.py C:\path\to\directory```
+
+### Note on Versions
+Always use the latest version of the script (current: v0.2.1). The version number is included in the filename 
+(e.g., fs-name-inspector_v0-2-1.py) to help you identify the most current version.
 
 ### Command Line Options
 ```
